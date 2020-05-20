@@ -1,0 +1,3 @@
+From openjdk:8-jdk-alpine
+copy ./target/bora-consumer-0.0.1-SNAPSHOT.jar bora-consumer-0.0.1-SNAPSHOT.jar
+CMD ["java","-jar","bora-consumer-0.0.1-SNAPSHOT.jar"]
